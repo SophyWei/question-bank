@@ -8,6 +8,8 @@ const app = new Vue({
     ...App
 })
 app.$mount()
+import uView from '@/uni_modules/uview-ui'
+Vue.use(uView)
 // #endif
 
 // #ifdef VUE3
